@@ -619,6 +619,7 @@ img {
   text-transform: uppercase;
   color: var(--color-accent-2);
   margin-bottom: 20px;
+  font-family: var(--main-font);
 }
 
 .footer-form {
