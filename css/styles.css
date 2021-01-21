@@ -861,7 +861,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 528px;
+  min-width: 528px;
   min-height: 581px;
   background-color: var(--color-accent-2);
   border-radius: 4px;
@@ -931,7 +931,6 @@ img {
   position: relative;
   display: block;
   margin-top: 4px;
-  margin-bottom: 10px;
 }
 
 .modal-form-input {
@@ -1006,7 +1005,8 @@ img {
 }
 
 .conditions {
-  text-decoration: underline;
+  text-decoration-line: underline;
+  color: var(--color-accent);
 }
 
 .modal-form-policy-text {
@@ -1042,4 +1042,22 @@ img {
   outline: none;
 }
 
+.checkbox-finito {
+  display: flex;
+  align-items: center;
+  padding-left: 13px;
+  margin-bottom: 30px;
+}
+
+.modal-form-policy-text {
+  margin-left: 7px;
+}
+
+.modal-form-field {
+  margin-bottom: 10px;
+}
+
+.modal-comment-field {
+  margin-bottom: 0px;
+}
 /* ==========End Backdrop========== */
