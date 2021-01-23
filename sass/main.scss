@@ -1,7 +1,17 @@
-body {
-  background-color: aqua;
-}
+@import "./utils/visually-headen";
+@import "./utils/variables";
 
-p {
-  color: rebeccapurple;
-}
+@import "./base/common";
+@import "./base/container";
+
+@import "./components/section";
+@import "./components/backdrop";
+
+@import "./layout/header";
+@import "./layout/section-booking";
+@import "./layout/section-characteristics";
+@import "./layout/about-services";
+@import "./layout/team";
+@import "./layout/section-clients";
+@import "./layout/footer";
+@import "./layout/portfolio";
