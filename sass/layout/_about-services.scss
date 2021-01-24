@@ -4,13 +4,13 @@
 }
 
 .undertitle {
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  color: var(--main-color);
+  color: $main-color;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
@@ -30,7 +30,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--color-accent-2);
+  color: $color-accent-2;
   position: absolute;
   align-items: center;
   display: flex;

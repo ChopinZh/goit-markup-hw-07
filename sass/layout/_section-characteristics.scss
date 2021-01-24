@@ -46,21 +46,21 @@
 }
 
 .character-name {
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: var(--main-color);
+  color: $main-color;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
 }
 .service-item-description {
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: var(--secondary-color);
+  color: $secondary-color;
   letter-spacing: 0.03em;
 }
 

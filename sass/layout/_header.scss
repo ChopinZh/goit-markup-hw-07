@@ -14,7 +14,7 @@
 }
 
 .logo {
-  font-family: var(--secondary-font);
+  font-family: $secondary-font;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
@@ -44,11 +44,11 @@
 }
 
 .navigation-text {
-  color: var(--main-color);
+  color: $main-color;
   letter-spacing: 0.03em;
   display: block;
   position: relative;
-  transition: color 250ms var(--timing-function);
+  transition: color 250ms $timing-function;
 }
 
 .navigation-text::after {
@@ -59,13 +59,13 @@
   width: 100%;
   height: 4px;
   border-radius: 2px;
-  background-color: var(--color-accent);
+  background-color: $color-accent;
   transform: scaleX(0);
   /* opacity: 0; */
 }
 
 .navigation-text.current {
-  color: var(--color-accent);
+  color: $color-accent;
 }
 
 .navigation-text.current::after {
@@ -79,37 +79,37 @@
 .email-header:hover,
 .phone-header:focus,
 .phone-header:hover {
-  color: var(--color-accent);
+  color: $color-accent;
 }
 
 .email-header,
 .phone-header {
-  transition: color 250ms var(--timing-function);
+  transition: color 250ms $timing-function;
 }
 
 .email-header,
 .phone-header {
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--link-color);
+  color: $link-color;
   align-items: center;
   display: flex;
 }
 
 .navigation-text {
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--link-color);
+  color: $link-color;
   align-items: center;
   display: block;
   position: relative;
-  transition: color 250ms var(--timing-function);
+  transition: color 250ms $timing-function;
 }
 
 .list {
@@ -118,7 +118,7 @@
 
 .contacts-header-item .link:hover,
 .contacts-header-item .link:focus {
-  color: var(--color-accent);
+  color: $color-accent;
 }
 
 /*.contacts-header-item:hover .header-tel-icon,
@@ -131,7 +131,7 @@
 .header-tel-icon,
 .header-mail-icon {
   fill: currentColor;
-  transition: fill 250ms var(--timing-function);
+  transition: fill 250ms $timing-function;
 }
 
 .current {

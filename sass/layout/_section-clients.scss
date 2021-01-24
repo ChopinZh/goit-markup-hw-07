@@ -10,7 +10,7 @@
 
 .client-list-link:hover,
 .client-list-link:focus {
-  border-color: var(--color-accent);
+  border-color: $color-accent;
 }
 
 .client-list-link {
@@ -19,27 +19,27 @@
   align-items: center;
   width: 170px;
   height: 90px;
-  border: 1px solid var(--icon-color);
+  border: 1px solid $icon-color;
   box-sizing: border-box;
   border-radius: 4px;
-  background-color: var(--color-accent-2);
+  background-color: $color-accent-2;
   align-content: stretch;
-  color: var(--icon-color);
-  transition: border 250ms var(--timing-function);
+  color: $icon-color;
+  transition: border 250ms $timing-function;
 }
 
 .client-list-icon {
   display: block;
   fill: currentColor;
-  transition: fill 250ms var(--timing-function);
+  transition: fill 250ms $timing-function;
 }
 
 .client-list-link:hover .client-list-icon,
 .client-list-link:focus .client-list-icon {
-  color: var(--color-accent);
+  color: $color-accent;
 }
 
 .client-list-link:hover,
 .client-list-link:focus {
-  fill: var(--color-accent);
+  fill: $color-accent;
 }

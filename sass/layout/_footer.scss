@@ -20,7 +20,7 @@
 .address-footer,
 .email-footer,
 .phone-footer {
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
@@ -34,7 +34,7 @@
 .email-footer:focus,
 .phone-footer:hover,
 .phone-footer:focus {
-  color: var(--color-accent);
+  color: $color-accent;
 }
 
 .footer .contacts-footer {
@@ -71,9 +71,9 @@
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--color-accent-2);
+  color: $color-accent-2;
   margin-bottom: 20px;
-  font-family: var(--main-font);
+  font-family: $main-font;
 }
 
 .footer-form {
@@ -97,7 +97,7 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: var(--main-background);
-  color: var(--color-accent-2);
+  color: $color-accent-2;
 }
 
 .footer-email::placeholder {
@@ -107,7 +107,7 @@
 .footer-form-button {
   width: 200px;
   height: 50px;
-  background-color: var(--color-accent);
+  background-color: $color-accent;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 700;
@@ -117,7 +117,7 @@
   text-align: center;
   align-items: center;
   letter-spacing: 0.06em;
-  color: var(--color-accent-2);
+  color: $color-accent-2;
   border: none;
   cursor: pointer;
   margin-left: 12px;
@@ -128,7 +128,7 @@
 }
 
 .footer-icon {
-  fill: var(--color-accent-2);
+  fill: $color-accent-2;
   width: 24px;
   height: 24px;
   margin-left: 10px;
@@ -143,27 +143,27 @@
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   margin-right: 10px;
-  transition: background-color 250ms var(--timing-function);
+  transition: background-color 250ms $timing-function;
 }
 
 .footer-social-list-icon {
   width: 20px;
   height: 20px;
-  fill: var(--color-accent-2);
+  fill: $color-accent-2;
 }
 
 .footer-social-list-link:hover,
 .footer-social-list-link:focus {
-  background-color: var(--color-accent);
-  fill: var(--color-accent-2);
+  background-color: $color-accent;
+  fill: $color-accent-2;
 }
 
 .email-footer,
 .phone-footer {
-  transition: color 250ms var(--timing-function);
+  transition: color 250ms $timing-function;
 }
 
 .address-footer {
   color: #fff;
-  transition: color 250ms var(--timing-function);
+  transition: color 250ms $timing-function;
 }
