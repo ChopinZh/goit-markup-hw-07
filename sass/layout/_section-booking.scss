@@ -14,6 +14,25 @@
   background-position: center;
   margin-right: auto;
   margin-left: auto;
+  &.button {
+    min-width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 32px;
+    margin: auto;
+    align-items: center;
+    font-family: var(--main-font);
+    color: var(--color-accent-2);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background: #2196f3;
+  }
 }
 
 .booking-section-part {
@@ -23,21 +42,6 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-}
-
-.visually-hidden {
-  font-family: var(--main-font);
-  font-weight: 700;
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .main-title {
@@ -52,27 +56,4 @@
   color: var(--color-accent-2);
   margin-bottom: 30px;
   width: 696px;
-}
-
-.booking-section .button {
-  min-width: 200px;
-  height: 50px;
-  box-shadow: 0px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  display: flex;
-  cursor: pointer;
-  padding: 10px 32px;
-  margin: auto;
-  align-items: center;
-}
-
-.button {
-  font-family: var(--main-font);
-  color: var(--color-accent-2);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  text-align: center;
-  letter-spacing: 0.06em;
-  background: #2196f3;
 }

@@ -2,22 +2,15 @@
   background-color: #f5f4fa;
 }
 
-.team-list {
-  display: flex;
-}
-
-.member-name,
-.position {
-  font-family: var(--main-font);
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-}
 .member-name {
   font-weight: 500;
   color: var(--main-color);
   margin-bottom: 10px;
   text-align: center;
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 .position {
@@ -27,14 +20,14 @@
   line-height: 1.1876;
   text-align: center;
   margin-bottom: 16px;
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 .team-list {
   display: flex;
-}
-
-.member-info:not(:last-child) {
-  margin-right: 30px;
 }
 
 .member-info {
@@ -43,6 +36,9 @@
   border-radius: 0px 0px 4px 4px;
   background-color: var(--color-accent-2);
   overflow: hidden;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .about-each-member {
@@ -53,6 +49,11 @@
 .social-list {
   display: flex;
   justify-content: space-evenly;
+  &-icon {
+    width: 20px;
+    height: 20px;
+    transition: fill 250ms var(--timing-function);
+  }
 }
 
 .social-list-link {
@@ -66,21 +67,10 @@
   color: var(--icon-color);
   fill: var(--icon-color);
   transition: background-color 250ms var(--timing-function);
-}
-
-.social-list-link:hover,
-.social-list-link:focus {
-  fill: var(--color-accent-2);
-}
-
-.social-list-link:hover,
-.social-list-link:focus {
-  background-color: var(--color-accent);
-  color: white;
-}
-
-.social-list-icon {
-  width: 20px;
-  height: 20px;
-  transition: fill 250ms var(--timing-function);
+  &:hover,
+  &:focus {
+    fill: var(--color-accent-2);
+    background-color: var(--color-accent);
+    color: white;
+  }
 }
