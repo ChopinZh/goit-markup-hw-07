@@ -1,8 +1,3 @@
-.clients .container {
-  display: block;
-  line-height: normal;
-}
-
 .client-list {
   display: flex;
   justify-content: space-between;
@@ -10,7 +5,7 @@
 
 .client-list-link:hover,
 .client-list-link:focus {
-  border-color: $color-accent;
+  border-color: var(--color-accent);
 }
 
 .client-list-link {
@@ -19,27 +14,32 @@
   align-items: center;
   width: 170px;
   height: 90px;
-  border: 1px solid $icon-color;
+  border: 1px solid var(--icon-color);
   box-sizing: border-box;
   border-radius: 4px;
-  background-color: $color-accent-2;
+  background-color: var(--color-accent-2);
   align-content: stretch;
-  color: $icon-color;
-  transition: border 250ms $timing-function;
+  color: var(--icon-color);
+  transition: border 250ms var(--timing-function);
 }
 
 .client-list-icon {
   display: block;
   fill: currentColor;
-  transition: fill 250ms $timing-function;
+  transition: fill 250ms var(--timing-function);
 }
 
 .client-list-link:hover .client-list-icon,
 .client-list-link:focus .client-list-icon {
-  color: $color-accent;
+  color: var(--color-accent);
 }
 
 .client-list-link:hover,
 .client-list-link:focus {
-  fill: $color-accent;
+  fill: var(--color-accent);
+}
+
+.clients .container {
+  display: block;
+  line-height: normal;
 }

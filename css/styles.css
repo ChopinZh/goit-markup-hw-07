@@ -1,18 +1,11 @@
-:root {
-  --main-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
-  --main-color: #212121;
-  --secondary-color: #757575;
-  --color-accent: #2196f3;
-  --color-accent-2: #ffffff;
-  --main-background: #2f303a;
-  --super-black-color: #000;
-  --link-color: #757575;
-  --icon-color: #afb1b8;
-  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 /*===========Header========*/
+
+/*.contacts-header-item:hover .header-tel-icon,
+ .contacts-header-item:focus .header-tel-icon,
+ .contacts-header-item:hover .header-mail-icon,
+ .contacts-header-item:focus .header-mail-icon{
+   fill:currentColor;
+ }*/
 
 /*==========End Header=========*/
 /*===========Booking =====*/
@@ -22,6 +15,8 @@
 /*===========Characteristics=====*/
 
 /*===========End Characteristics=====*/
+
+/* OUR TEAM*/
 
 /*=========Client's section=======*/
 
@@ -33,3 +28,7 @@
 /* beginning of portfolio design*/
 
 /* end of portfolio*/
+
+/* ==========Backdrop========== */
+
+/* ==========End Backdrop========== */

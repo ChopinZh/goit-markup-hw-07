@@ -1,5 +1,5 @@
 .body {
-  font-family: $main-font;
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: bold;
   letter-spacing: 0.03em;
@@ -28,8 +28,4 @@ ul {
 
 img {
   display: block;
-}
-
-.section {
-  padding: 94px 0px;
 }
